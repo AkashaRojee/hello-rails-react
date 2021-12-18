@@ -1,24 +1,48 @@
-# README
+# Set up a "Hello world" project with rails-react gem
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-Things you may want to cover:
+> This project connects Rails with React using rails-react gem. It displays random greetings from the database.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Major languages: Ruby, React
+- Frameworks: Rails
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running, follow the steps below in your terminal.
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+- Ruby
+- Rails
+- React
+- PostgreSQL
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup
 
-* Deployment instructions
+Clone the project:
 
-* ...
+```
+git clone https://github.com/AkashaRojee/hello-rails-react.git
+```
+
+### Run
+
+```
+bundle install
+npm install
+rails db:create
+rails db:migrate
+rails db:seed
+rails s
+```
+
+## Author
+
+👤 **Akasha Rojee**
+
+- GitHub: [@AkashaRojee](https://github.com/AkashaRojee)
+- Twitter: [@AkashaRojee](https://twitter.com/AkashaRojee)
+- LinkedIn: [Akasha Rojee](https://linkedin.com/in/AkashaRojee)
